@@ -62,7 +62,7 @@ class NotificationsService {
 
       String? token = await messaging.getToken();
       // print('token=> $token');
-      // log('token=> $token');
+      log('token=> $token');
       return token;
     } catch (e) {
       return null;
